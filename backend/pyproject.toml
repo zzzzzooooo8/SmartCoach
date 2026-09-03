@@ -1,0 +1,16 @@
+[project]
+name = "smartcoach-backend"
+version = "0.1.0"
+description = "FastAPI and LangGraph backend for the SmartCoach AI fitness assistant"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "chromadb>=1.5.2",
+    "fastapi>=0.135.1",
+    "langchain-openai>=1.1.10",
+    "langgraph>=1.0.10",
+    "openai>=2.26.0",
+    "pydantic>=2.12.5",
+    "python-dotenv>=1.2.2",
+    "uvicorn>=0.41.0",
+]

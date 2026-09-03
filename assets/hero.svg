@@ -1,0 +1,81 @@
+<svg width="1200" height="620" viewBox="0 0 1200 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="background" x1="77" y1="20" x2="1101" y2="601" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EEF1E9"/>
+      <stop offset="1" stop-color="#D9E5DB"/>
+    </linearGradient>
+    <linearGradient id="dark" x1="52" y1="44" x2="346" y2="583" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#214E3E"/>
+      <stop offset="1" stop-color="#102A22"/>
+    </linearGradient>
+    <filter id="panelShadow" x="22" y="18" width="1156" height="596" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#17372D" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="620" rx="32" fill="url(#background)"/>
+  <circle cx="1091" cy="54" r="177" fill="#C6DFCF" fill-opacity="0.44"/>
+  <circle cx="107" cy="595" r="142" fill="#CE6F45" fill-opacity="0.10"/>
+  <g filter="url(#panelShadow)">
+    <rect x="46" y="38" width="1108" height="544" rx="28" fill="#F8F5ED"/>
+    <path d="M46 66C46 50.536 58.536 38 74 38H366V582H74C58.536 582 46 569.464 46 554V66Z" fill="url(#dark)"/>
+  </g>
+
+  <rect x="76" y="74" width="44" height="44" rx="14" fill="#C6DFCF"/>
+  <path d="M87 97H92L96 88L102 105L107 94L110 97" stroke="#17372D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="136" y="94" fill="#F8F5ED" font-family="Georgia, 'Microsoft YaHei', sans-serif" font-size="23" font-weight="700">SmartCoach</text>
+  <text x="136" y="111" fill="#9EC7B2" font-family="Arial, sans-serif" font-size="9" letter-spacing="2">DAILY PRACTICE</text>
+
+  <rect x="76" y="155" width="260" height="111" rx="23" fill="#F8F5ED"/>
+  <text x="98" y="184" fill="#557166" font-family="'Microsoft YaHei', sans-serif" font-size="12">总减脂进度</text>
+  <text x="257" y="207" fill="#17372D" font-family="Georgia, serif" font-size="40" font-weight="700">62%</text>
+  <rect x="98" y="225" width="216" height="9" rx="4.5" fill="#DBE3DC"/>
+  <rect x="98" y="225" width="134" height="9" rx="4.5" fill="#CE6F45"/>
+
+  <rect x="76" y="283" width="124" height="120" rx="21" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <circle cx="99" cy="309" r="8" stroke="#9EC7B2" stroke-width="3"/>
+  <text x="94" y="343" fill="#9FB8AD" font-family="'Microsoft YaHei', sans-serif" font-size="11">今日摄入</text>
+  <text x="94" y="372" fill="#F8F5ED" font-family="Arial, sans-serif" font-size="21" font-weight="700">1,280</text>
+  <text x="94" y="390" fill="#79998A" font-family="Arial, sans-serif" font-size="9">目标 1,750 kcal</text>
+
+  <rect x="212" y="283" width="124" height="120" rx="21" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  <path d="M237 299C245 310 244 319 236 324C228 319 229 310 237 299Z" fill="#E79568"/>
+  <text x="230" y="343" fill="#9FB8AD" font-family="'Microsoft YaHei', sans-serif" font-size="11">运动消耗</text>
+  <text x="230" y="372" fill="#F8F5ED" font-family="Arial, sans-serif" font-size="21" font-weight="700">326</text>
+  <text x="230" y="390" fill="#79998A" font-family="Arial, sans-serif" font-size="9">今日已完成 78%</text>
+
+  <rect x="76" y="420" width="260" height="84" rx="21" fill="#C6DFCF"/>
+  <text x="98" y="448" fill="#557166" font-family="'Microsoft YaHei', sans-serif" font-size="11">连续记录</text>
+  <text x="98" y="480" fill="#17372D" font-family="Georgia, 'Microsoft YaHei', sans-serif" font-size="25" font-weight="700">第 18 天</text>
+  <circle cx="301" cy="462" r="18" stroke="#17372D" stroke-opacity="0.24" stroke-width="2"/>
+  <path d="M301 452V462L308 467" stroke="#17372D" stroke-opacity="0.48" stroke-width="2" stroke-linecap="round"/>
+
+  <text x="407" y="82" fill="#17372D" font-family="Georgia, 'Microsoft YaHei', sans-serif" font-size="27" font-weight="700">今日对话</text>
+  <text x="407" y="105" fill="#75877E" font-family="'Microsoft YaHei', sans-serif" font-size="12">档案、记录和记忆均由后端管理</text>
+  <rect x="994" y="70" width="124" height="32" rx="16" fill="#E4EBE4"/>
+  <circle cx="1013" cy="86" r="5" fill="#4E9B72"/>
+  <text x="1025" y="90" fill="#466358" font-family="'Microsoft YaHei', sans-serif" font-size="11">SQLite 已连接</text>
+  <line x1="366" y1="126" x2="1154" y2="126" stroke="#DCE2D9"/>
+
+  <rect x="406" y="159" width="510" height="104" rx="8" fill="#EDF1EB" stroke="#D9E2DA"/>
+  <text x="430" y="188" fill="#263F36" font-family="'Microsoft YaHei', sans-serif" font-size="14">早上好，今天可以直接告诉我你吃了什么、</text>
+  <text x="430" y="214" fill="#263F36" font-family="'Microsoft YaHei', sans-serif" font-size="14">做了什么运动，或者问我一个减脂问题。</text>
+  <text x="430" y="243" fill="#6A8075" font-family="'Microsoft YaHei', sans-serif" font-size="11">基于个人计划 · 支持资料溯源</text>
+
+  <rect x="731" y="289" width="387" height="64" rx="24" fill="#245744"/>
+  <text x="756" y="327" fill="white" font-family="'Microsoft YaHei', sans-serif" font-size="15">午饭吃了 200 克苹果，晚上慢跑 30 分钟</text>
+
+  <rect x="406" y="379" width="560" height="111" rx="8" fill="#EDF1EB" stroke="#D9E2DA"/>
+  <circle cx="429" cy="409" r="8" fill="#C6DFCF"/>
+  <path d="M425 409L428 412L434 405" stroke="#245744" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="449" y="414" fill="#263F36" font-family="'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">已完成今天的记录</text>
+  <text x="430" y="444" fill="#415D51" font-family="'Microsoft YaHei', sans-serif" font-size="13">饮食和运动已写入本地数据库，今日面板同步更新。</text>
+  <line x1="430" y1="462" x2="941" y2="462" stroke="#CBD8CF"/>
+  <text x="430" y="481" fill="#5E756A" font-family="'Microsoft YaHei', sans-serif" font-size="11">▾ 查看本轮资料来源</text>
+
+  <rect x="406" y="520" width="712" height="41" rx="18" fill="white" stroke="#CCD8CF"/>
+  <text x="430" y="546" fill="#9AAA9F" font-family="'Microsoft YaHei', sans-serif" font-size="12">告诉教练你吃了什么、做了什么，或直接提问…</text>
+  <rect x="1073" y="527" width="29" height="29" rx="10" fill="#17372D"/>
+  <path d="M1081 541L1095 535L1090 549L1087 543L1081 541Z" fill="white"/>
+
+  <text x="873" y="602" fill="#557166" font-family="Arial, sans-serif" font-size="10" letter-spacing="1.4">PERSONAL · TRACEABLE · LOCAL FIRST</text>
+</svg>

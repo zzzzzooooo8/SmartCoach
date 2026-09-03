@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+:root {
+  --background: #eef1e9;
+  --foreground: #17372d;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: "Microsoft YaHei", "PingFang SC", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.font-editorial {
+  font-family: Georgia, "Noto Serif SC", "Source Han Serif SC", serif;
+  letter-spacing: -0.025em;
+}
+
+.field-label {
+  display: grid;
+  gap: 0.45rem;
+  color: #557166;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.field-input {
+  width: 100%;
+  border: 1px solid #d4ddd5;
+  border-radius: 0.9rem;
+  background: #fffdf8;
+  padding: 0.8rem 0.9rem;
+  color: #17372d;
+  outline: none;
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.field-input:focus {
+  border-color: #6b9a83;
+  box-shadow: 0 0 0 3px rgb(107 154 131 / 12%);
+}
+
+.control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  border: 1px solid rgb(255 255 255 / 10%);
+  border-radius: 0.9rem;
+  background: rgb(255 255 255 / 5%);
+  padding: 0.75rem;
+  color: #c8e3d3;
+  font-size: 0.75rem;
+  transition: background 160ms ease;
+}
+
+.control-button:hover {
+  background: rgb(255 255 255 / 10%);
+}
+
+.user-bubble,
+.assistant-bubble {
+  padding: 1rem 1.2rem;
+  font-size: 0.9rem;
+  box-shadow: 0 7px 24px rgb(33 68 53 / 7%);
+}
+
+.user-bubble {
+  border-radius: 1.5rem 0.35rem 1.5rem 1.5rem;
+  background: #245744;
+  color: white;
+}
+
+.assistant-bubble {
+  border: 1px solid #d9e2da;
+  border-radius: 0.35rem 1.5rem 1.5rem 1.5rem;
+  background: #edf1eb;
+  color: #263f36;
+}
+
+.chat-scroll {
+  scrollbar-color: #b9c9be transparent;
+  scrollbar-width: thin;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .assistant-bubble,
+  .user-bubble {
+    animation: message-in 220ms ease-out both;
+  }
+}
+
+@keyframes message-in {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

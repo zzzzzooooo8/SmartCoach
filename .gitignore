@@ -1,0 +1,51 @@
+# Secrets and local configuration
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+**/__pycache__/
+**/*.py[cod]
+backend/.venv/
+backend/.uv-cache/
+backend/.pytest_cache/
+backend/build/
+backend/dist/
+backend/*.egg-info/
+
+# Next.js / Node.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/coverage/
+frontend/.vercel/
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+*.log
+
+# Local application state
+backend/app/data/*.db
+backend/app/data/*.db-shm
+backend/app/data/*.db-wal
+backend/app/data/chroma_db_storage/
+
+# Knowledge sources without redistribution metadata
+backend/app/data/calorie-of-food.csv
+backend/app/data/recipe.csv
+backend/app/data/chinese-2011-compendium-of-physical-activities-v1.1.csv
+backend/app/data/optimize-the-dietary-structure.txt
+backend/app/data/scientific-literature-on-weight-loss.txt
+
+# Local work notes and generated artifacts
+.claude/
+tmp/
+明日待确认清单.md
+Agent_RAG_改造规格.md
+Agent_RAG_改造实施计划.md
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
